@@ -1,0 +1,13 @@
+news_sites:
+  lanacion:
+    url: https://www.lanacion.com.ar
+    queries:
+      homepage_article_links: ".com-title a"
+      article_body: "p.com-paragraph"
+      article_title: "h1.com-title"
+  elpais:
+    url: https://elpais.com
+    queries:
+      homepage_article_links: "h2.c_t a"
+      article_body: ".a_c p"
+      article_title: "h1.a_t"
